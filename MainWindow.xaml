@@ -1,0 +1,22 @@
+﻿<Window x:Class="PROJECT_OF_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROJECT_OF_WPF"
+        mc:Ignorable="d"
+        Title="PROGRAMMING OFFICIAL SITE" Height="450" Width="815" FontFamily="Comic Sans MS">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\AHAD RAZA\Desktop\AHADRAZA.PNG"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Opacity="1" HorizontalContentAlignment="Center" Margin="0,1,-2,354" FontFamily="Roboto." FontSize="43" HorizontalAlignment="Right" Width="794">CODE WITH PYTHON</Label>
+        <TabPanel>
+            <Border></Border>
+        </TabPanel>
+        <Expander Header="ABOUT PYTHON PROGRAMMING LANGUAGE" Margin="0,51,103,80">
+            <TextBlock FontSize="17" FontFamily="Comic Sans MS" TextWrapping="Wrap" Height="192" Margin="0,0,-48,0"><Bold>"Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse."</Bold></TextBlock>
+        </Expander>
+
+    </Grid>
+</Window>
